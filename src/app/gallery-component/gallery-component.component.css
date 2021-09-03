@@ -1,0 +1,37 @@
+#gallery-holder{
+    display: flex;
+    margin-top: 20%;
+    
+    justify-content: space-between;
+    
+}
+#details-card{
+    
+    width:27%;
+    border-radius: 0.2rem;
+    background:linear-gradient(90deg, orange,white); 
+    box-shadow: 0px 5px 4px 3px black;
+    
+}
+
+.innerdiv{
+    margin-left:3.8%;
+    margin-top: 2%;
+}
+.header-sect{
+    align-content: center;
+}
+.header-sect label{
+    font-size: 1.6rem;
+    color:red
+}
+.para-sect p{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.para-sect{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+}

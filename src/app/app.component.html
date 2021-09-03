@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Anupam Bharat Sangh</title>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+          <div id="logo">
+            <img src="../assets/logo.JPG" alt="">
+          </div>
+          <div id="home"><a href="/" class="tag"><p >Home</p></a></div>
+          <div id="programs"><a routerLink="/volunteers" class="tag"><p>Volunteering Programs</p></a></div>
+          <div id="interns"><a routerLink="/interns" class="tag"><p>Interns</p></a></div>
+          <div id="about"><a routerLink="/about-us" class="tag"><p>About Us</p></a></div>
+          
+          <div id="donate"><a href="/donate-now" class="tag"><p>Donate Now</p></a></div>
+          
+      </div>
+    </header>
+    <main>
+      <router-outlet></router-outlet>
+      
+    </main>
+      
+  </body>
+</html>

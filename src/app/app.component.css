@@ -1,0 +1,28 @@
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border:orange 1.2px solid;
+    background:linear-gradient(90deg, orange,white);
+}
+#logo{
+    width: 10%;
+    align-content: center;
+    align-items: center;
+}
+#logo img{
+    margin-left: 10%;
+    width: 6rem;
+    height: 7rem;
+}
+.tag{
+    text-decoration:none;
+    text-decoration: solid;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color:grey
+}
+.tag:hover{
+    color:black;
+    text-decoration: underline;
+}
